@@ -1,10 +1,12 @@
 # retosEvaluables
 
-## Módulo 1 - Tema 7
+## Modulo 1
+
+### Temas 1-7 (incluido repaso1)
 
 - Todos los retos subidos
 
-## Módulo 1 - tema 8
+### tema 8
 
 - Todos los retos subidos
 
