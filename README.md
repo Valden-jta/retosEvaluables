@@ -10,6 +10,6 @@
 
 - Todos los retos subidos
 
-## Repaso 2
+### Repaso 2
 
 - Completado 
