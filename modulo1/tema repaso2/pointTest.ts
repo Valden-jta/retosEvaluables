@@ -23,6 +23,10 @@ let point2:Point = new Point(-23,132);
 console.log(point1.calculateDistance(point2));
 
 console.log('--- En que cuadrante esta el punto ---');
-console.log('2 | 1\n- 0 -\n3 | 4');
+console.log("2 | 1\n- 0 -\n3 | 4");
 console.log('point:1 ' + point1.calculateQuadrant());
 console.log('point:1 ' + point2.calculateQuadrant());
+
+console.log('--- Cual es el punto más cercano a point1 ---');
+let points = [new Point(10,18),new Point(16,-12),new Point(-9,10),new Point(-15,-7)];
+console.log(point1.calculateNearest(points));

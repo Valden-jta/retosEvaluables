@@ -70,4 +70,29 @@ export class Point {
 
     return quadrant;
   }
+
+  //   public calculateNearest(points: Point[]): Point {
+  //     let nearestPointDistance: number = this.calculateDistance(points[0]);
+  //     let nearesPoint: Point = points[0];
+  //     for (let i = 0; i < points.length; i++) {
+  //       let currentPointDistance: number = this.calculateDistance(points[i]);
+  //       if (currentPointDistance < nearestPointDistance) {
+  //         nearestPointDistance = currentPointDistance;
+  //         nearesPoint = points[i];
+  //       }
+  //     }
+  //     return nearesPoint;
+  //   }
+  public calculateNearest(points: Point[]): Point {
+    let nearestPointDistance: number = this.calculateDistance(points[0]);
+    let nearestPoint: Point = points[0];
+    points.forEach((point) => {
+      let currentPointDistance: number = this.calculateDistance(point);
+      if (currentPointDistance < nearestPointDistance) {
+        nearestPointDistance = currentPointDistance;
+        nearestPoint = point;
+      }
+    });
+    return nearestPoint;
+  }
 }
