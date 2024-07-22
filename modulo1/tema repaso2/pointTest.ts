@@ -14,4 +14,15 @@ point1.x = 50;
 point1.y = 50;
 console.log(point1.toString());
 
+console.log('--- Distancia al origen ---');
+console.log(point1.distanceToOrigin());
 
+
+console.log('--- Distancia al punto 23,132 ---');
+let point2:Point = new Point(-23,132);
+console.log(point1.calculateDistance(point2));
+
+console.log('--- En que cuadrante esta el punto ---');
+console.log('2 | 1\n- 0 -\n3 | 4');
+console.log('point:1 ' + point1.calculateQuadrant());
+console.log('point:1 ' + point2.calculateQuadrant());
