@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var professional_1 = require("./professional");
+var professional1 = new professional_1.Professional("Quentin Tarantino", 61, 90, 185, false, "American", 2, "Director");
+var professional2 = new professional_1.Professional("Emma Stone", 35, 52, 168, false, "American", 1, "Actress");
+var professional3 = new professional_1.Professional("Aaron Sorkin", 63, 80, 183, false, "American", 1, "Screenwriter");
+var professional4 = new professional_1.Professional("Steven Spielberg", 77, 90, 170, false, "American", 4, "Director");
+professional1.printProfessional();
+professional2.printProfessional();
+professional3.printProfessional();
+professional4.printProfessional();

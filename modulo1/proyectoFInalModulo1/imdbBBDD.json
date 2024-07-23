@@ -1,0 +1,458 @@
+{
+   "peliculas": [
+      {
+         "title": "Pulp Fiction",
+         "releaseYear": 1994,
+         "actors": [
+            {
+               "name": "John Travolta",
+               "age": 70,
+               "weight": 90,
+               "height": 188,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Uma Thurman",
+               "age": 50,
+               "weight": 64,
+               "height": 180,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actress"
+            },
+            {
+               "name": "Samuel L. Jackson",
+               "age": 75,
+               "weight": 94,
+               "height": 189,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 1,
+               "profession": "Actor"
+            },
+            {
+               "name": "Bruce Willis",
+               "age": 65,
+               "weight": 93,
+               "height": 183,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            }
+         ],
+         "nationality": "American",
+         "director": {
+            "name": "Quentin Tarantino",
+            "age": 61,
+            "weight": 90,
+            "height": 185,
+            "isRetired": false,
+            "nationality": "American",
+            "oscarsNumber": 2,
+            "profession": "Director"
+         },
+         "writer": {
+            "name": "Quentin Tarantino",
+            "age": 61,
+            "weight": 90,
+            "height": 185,
+            "isRetired": false,
+            "nationality": "American",
+            "oscarsNumber": 2,
+            "profession": "Director"
+         },
+         "languaje": "English",
+         "platform": "Cinema",
+         "isMCU": false,
+         "mainCharacterName": "Vincent Vega",
+         "producer": "Lawrence Bender",
+         "distributor": "Miramax Films",
+         "genre": "Crime"
+      },
+      {
+         "title": "The Lord of the Rings: The Return of the King",
+         "releaseYear": 2003,
+         "actors": [
+            {
+               "name": "Elijah Wood",
+               "age": 43,
+               "weight": 64,
+               "height": 168,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Ian McKellen",
+               "age": 85,
+               "weight": 80,
+               "height": 180,
+               "isRetired": false,
+               "nationality": "British",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Viggo Mortensen",
+               "age": 65,
+               "weight": 81,
+               "height": 180,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Sean Astin",
+               "age": 53,
+               "weight": 85,
+               "height": 170,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            }
+         ],
+         "nationality": "New Zealand",
+         "director": {
+            "name": "Roman Polanski",
+            "age": 91,
+            "weight": 55,
+            "height": 160,
+            "isRetired": true,
+            "nationality": "French/Polish",
+            "oscarsNumber": 1,
+            "profession": "Actriz(0)"
+         },
+         "writer": {
+            "name": "Fran Walsh",
+            "age": 63,
+            "weight": 60,
+            "height": 165,
+            "isRetired": false,
+            "nationality": "New Zealander",
+            "oscarsNumber": 3,
+            "profession": "Screenwriter"
+         },
+         "languaje": "English",
+         "platform": "Cinema",
+         "isMCU": false,
+         "mainCharacterName": "Frodo Baggins",
+         "producer": "Barrie M. Osborne",
+         "distributor": "New Line Cinema",
+         "genre": "Fantasy"
+      },
+      {
+         "title": "El laberinto del fauno",
+         "releaseYear": 2006,
+         "actors": [
+            {
+               "name": "Maribel Verdú",
+               "age": 50,
+               "weight": 60,
+               "height": 165,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actress"
+            },
+            {
+               "name": "Ivana Baquero",
+               "age": 30,
+               "weight": 55,
+               "height": 160,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actress"
+            },
+            {
+               "name": "Doug Jones",
+               "age": 64,
+               "weight": 64,
+               "height": 192,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Ariadna Gil",
+               "age": 51,
+               "weight": 56,
+               "height": 168,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actress"
+            },
+            {
+               "name": "Sergi Lopez",
+               "age": 54,
+               "weight": 75,
+               "height": 175,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            }
+         ],
+         "nationality": "Spanish",
+         "director": {
+            "name": "Guillermo del Toro",
+            "age": 55,
+            "weight": 100,
+            "height": 178,
+            "isRetired": false,
+            "nationality": "Mexican",
+            "oscarsNumber": 0,
+            "profession": "Director"
+         },
+         "writer": {
+            "name": "Guillermo del Toro",
+            "age": 55,
+            "weight": 100,
+            "height": 178,
+            "isRetired": false,
+            "nationality": "Mexican",
+            "oscarsNumber": 0,
+            "profession": "Director"
+         },
+         "languaje": "Spanish",
+         "platform": "Cinema",
+         "isMCU": false,
+         "mainCharacterName": "Ofelia",
+         "producer": "Guillermo del Toro",
+         "distributor": "Warner Bros",
+         "genre": "Fantasy"
+      },
+      {
+         "title": "Los amantes pasajeros",
+         "releaseYear": 2013,
+         "actors": [
+            {
+               "name": "Javier Cámara",
+               "age": 53,
+               "weight": 70,
+               "height": 170,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Carlos Areces",
+               "age": 48,
+               "weight": 75,
+               "height": 170,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Raúl Arévalo",
+               "age": 42,
+               "weight": 70,
+               "height": 175,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Lola Dueñas",
+               "age": 49,
+               "weight": 65,
+               "height": 165,
+               "isRetired": false,
+               "nationality": "Spanish",
+               "oscarsNumber": 0,
+               "profession": "Actress"
+            }
+         ],
+         "nationality": "Spanish",
+         "director": {
+            "name": "Pedro Almodóvar",
+            "age": 72,
+            "weight": 75,
+            "height": 178,
+            "isRetired": false,
+            "nationality": "Spanish",
+            "oscarsNumber": 0,
+            "profession": "Director"
+         },
+         "writer": {
+            "name": "Pedro Almodóvar",
+            "age": 72,
+            "weight": 75,
+            "height": 178,
+            "isRetired": false,
+            "nationality": "Spanish",
+            "oscarsNumber": 0,
+            "profession": "Director"
+         },
+         "languaje": "Spanish",
+         "platform": "Cinema",
+         "isMCU": false,
+         "mainCharacterName": "Joserra",
+         "producer": "Agustín Almodóvar",
+         "distributor": "Sony Pictures Releasing",
+         "genre": "Comedy"
+      },
+      {
+         "title": "The Irishman",
+         "releaseYear": 2019,
+         "actors": [
+            {
+               "name": "Robert De Niro",
+               "age": 76,
+               "weight": 75,
+               "height": 177,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Al Pacino",
+               "age": 79,
+               "weight": 75,
+               "height": 170,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Joe Pesci",
+               "age": 76,
+               "weight": 70,
+               "height": 163,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Harvey Keitel",
+               "age": 80,
+               "weight": 75,
+               "height": 170,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            }
+         ],
+         "nationality": "American",
+         "director": {
+            "name": "Martin Scorsese",
+            "age": 77,
+            "weight": 70,
+            "height": 163,
+            "isRetired": false,
+            "nationality": "American",
+            "oscarsNumber": 0,
+            "profession": "Director"
+         },
+         "writer": {
+            "name": "Aaron Sorkin",
+            "age": 63,
+            "weight": 75,
+            "height": 183,
+            "isRetired": false,
+            "nationality": "American",
+            "oscarsNumber": 1,
+            "profession": " Director(1)"
+         },
+         "languaje": "English",
+         "platform": "Netflix",
+         "isMCU": false,
+         "mainCharacterName": "Frank Sheeran",
+         "producer": "Robert De Niro",
+         "distributor": "Netflix",
+         "genre": "Crime"
+      },
+      {
+         "title": "Avengers: Endgame",
+         "releaseYear": 2019,
+         "actors": [
+            {
+               "name": "Robert Downey Jr.",
+               "age": 55,
+               "weight": 78,
+               "height": 174,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Chris Evans",
+               "age": 38,
+               "weight": 88,
+               "height": 183,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Mark Ruffalo",
+               "age": 52,
+               "weight": 80,
+               "height": 173,
+               "isRetired": false,
+               "nationality": "American",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            },
+            {
+               "name": "Chris Hemsworth",
+               "age": 36,
+               "weight": 91,
+               "height": 190,
+               "isRetired": false,
+               "nationality": "Australian",
+               "oscarsNumber": 0,
+               "profession": "Actor"
+            }
+         ],
+         "nationality": "American",
+         "director": {
+            "name": "Anthony Russo",
+            "age": 50,
+            "weight": 90,
+            "height": 183,
+            "isRetired": false,
+            "nationality": "American",
+            "oscarsNumber": 0,
+            "profession": "Director"
+         },
+         "writer": {
+            "name": "Christopher Markus",
+            "age": 51,
+            "weight": 85,
+            "height": 178,
+            "isRetired": false,
+            "nationality": "American",
+            "oscarsNumber": 0,
+            "profession": "Screenwriter"
+         },
+         "languaje": "English",
+         "platform": "Cinema",
+         "isMCU": true,
+         "mainCharacterName": "Tony Stark / Iron Man",
+         "producer": "Kevin Feige",
+         "distributor": "Walt Disney Studios Motion Pictures",
+         "genre": "Superhero"
+      }
+   ]
+}
