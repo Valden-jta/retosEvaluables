@@ -1,0 +1,34 @@
+{
+  "name": "proyectofinalmodulo1",
+  "version": "1.0.0",
+  "description": "Proyecto Final del Modulo 1",
+  "main": "finalTest.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valden-jta/retosEvaluables.git"
+  },
+  "keywords": [
+    "studies",
+    "projecto",
+    "cinema"
+  ],
+  "author": "Javier de la Torre Aragón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valden-jta/retosEvaluables/issues"
+  },
+  "homepage": "https://github.com/Valden-jta/retosEvaluables#readme",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "colors": "^1.4.0",
+    "es6-shim": "^0.35.8",
+    "readline-sync": "^1.4.10",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11"
+  }
+}
