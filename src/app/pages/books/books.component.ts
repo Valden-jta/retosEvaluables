@@ -14,24 +14,17 @@ import {
   styleUrls: ['./books.component.css'],
 })
 export class BooksComponent implements OnInit {
-  //Select
-  public books: Book[];
-  public selectedFormat: number;
-  public selectedPrice: number;
-  public selectedBook: number;
 
-  //* Filtro
-  public bookList: Book[];
-  public authorSet: string[];
-  public selectAuthor: string;
-  public genreSet: string[];
-  public selectGenre: string;
-  public formatSet: string[];
-  public selectFormat: string;
-  // -------------
+  public books: Book[];
+  public filteredList!: Book[];
+
+
 
   //* Formulario
   public formBook!: FormGroup;
+  public selectedFormat: number;
+  public selectedPrice: number;
+  public selectedBook: number;
   public types: { type: string; price: number }[] = [
     { type: 'ebook', price: 0 },
     { type: 'tapa blanda', price: 0 },
@@ -457,25 +450,17 @@ constructor() {
       ),
     ];
 
+    //inicializar la lista
+    this.filteredList = this.books;
+
     //*  Formulario (eliminar al separar componentes)
     this.buildForm();
     // -----
-    //*  Filtro (eliminar al separar componentes)
-    this.bookList = this.books;
-    this.authorSet = [
-      'Todos',
-      ...new Set(this.books.map((book) => book.author)),
-    ];
-    this.selectAuthor = 'Todos';
-    this.genreSet = ['Todos', ...new Set(this.books.map((book) => book.genre))];
-    this.selectGenre = 'Todos';
-    this.formatSet = ['Todos', 'ebook', 'tapa blanda', 'tapa dura'];
-    this.selectFormat = 'Todos';
   }
 
   //* Formulario
   private buildForm() {
-    this.formBook = this.formBuilder.group({
+     this.formBook = this.formBuilder.group({
       usuario: ['', Validators.required],
       titulo: ['', Validators.required],
       autor: ['', Validators.required],
@@ -494,15 +479,11 @@ constructor() {
     });
   }
 
-  ngOnInit(): void {}
-
-  seleccionaFormato(format: string, book: Book): void {
-    book.selected = parseInt(format);
+  ngOnInit(): void {
+    this.filteredList = this.books;
   }
 
-  mostrarPrecio(book: Book): number {
-    return book.price[book.selected];
-  }
+  //inicializar la lista
 
   scroll(sectionId: string): void {
     let element = document.getElementById(sectionId);
@@ -511,6 +492,18 @@ constructor() {
     }
   }
 
+  reset(): Book[] {
+    console.log('reset:' + this.filteredList);
+    return this.filteredList = this.books;
+  }
+
+  //* Almacenar filtrados
+ filtered(bookSearch: Book[]): Book[] {
+  console.log('Lista importada en books: ' + bookSearch);
+  return this.filteredList = bookSearch;
+ }
+
+ 
   //* Formulario
   get formato(): FormArray {
     return this.formBook.get('formato') as FormArray;
@@ -563,21 +556,8 @@ constructor() {
   importarLibro(arrayBooks: Book[], newBook: Book) {
     arrayBooks.push(this.newBook);
   }
-  // -------------
 
-  //* Filtro
-  filtrar(author: string, genre: string, type: string): Book[] {
-    this.bookList = this.books;
-    return (this.bookList = this.books.filter(
-      (book: Book) =>
-        (book.author == author || author == 'Todos' || author == '') &&
-        (book.genre == genre || genre == 'Todos' || genre == '') &&
-        (book.type.includes(type) || type == 'Todos' || type == '')
-    ));
-  }
 
-  reset(): void {
-    this.bookList = this.books;
-  }
-  // -------------
+
+
 }

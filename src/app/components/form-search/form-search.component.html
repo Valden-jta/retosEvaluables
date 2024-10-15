@@ -1,5 +1,6 @@
-<!-- <form class="form__search">
-    <select name="selectAutor" #selectAutor class="form__input">
+<form class="form__search">
+  <fieldset class="form__data --row">
+    <select name="selectAutor" #selectAuthor class="form__input">
       <option value="" disabled selected>Autor</option>
       <option *ngFor="let author of authorSet" [value]="author">{{author}}</option>
     </select>
@@ -11,5 +12,9 @@
       <option value="" disabled selected>Formato</option>
       <option *ngFor="let type of formatSet" [value]="type">{{type}}</option>
     </select>
-    <button type="button" (click)="filtrar(selectAutor.value, selectGenre.value, selectFormat.value)">Filtrar</button>
-  </form> -->
+  </fieldset>
+  <fieldset class="form__data --row">
+    <button type="button" (click)="reset()">Reset</button>
+    <button type="button" (click)="filter(selectAuthor.value, selectGenre.value, selectFormat.value)">Filtrar</button>
+  </fieldset>
+</form>
